@@ -1,9 +1,9 @@
 <div>
   <div>
-    Your Username is:
+    Username:
   </div>
+
   <div>
-    <%= @user.username %>
+    <%= @user&.username || "No User Found" %>
   </div>
 </div>
-

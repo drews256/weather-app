@@ -1,0 +1,22 @@
+.WeatherWrapper {
+  width: 100%;
+}
+h1 {
+  color: blue;
+  text-align: left;
+  text-decoration: underline;
+}
+
+p {
+  color: grey;
+}
+
+p1 {
+  color: grey;
+  text-align: center;
+}
+
+div {
+  color: black;
+  text-align: center;
+}

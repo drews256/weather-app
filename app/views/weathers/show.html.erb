@@ -1,0 +1,18 @@
+<div class="WeatherWrapper">
+
+  <h1> Weather Application </h1>
+
+  <p>
+    Your current location is set to:
+  </p>
+  <p>
+    <%= @api_weather["longitude"] %>, <%= @api_weather["latitude"] %>
+    (Bellingham Washington)
+  </p>
+
+  <p1>
+    Your Current Weather is:
+  <%= @api_weather["currently"]["temperature"] %>
+    F.
+  </p1>
+</div>
