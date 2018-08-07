@@ -1,17 +1,50 @@
 <div class="WeatherWrapper">
 
-
-  <p>
+  <h1>
     Your current location is set to:
-  </p>
+  </h1>
+
   <p>
     <%= @api_weather["longitude"] %>, <%= @api_weather["latitude"] %>
     (Bellingham Washington)
   </p>
 
-  <p1>
+
+  <h1>
+    Your Current Weather Statistics:
+  </h1>
+
+  <p1 class = "Data">
     Your Current Weather is:
-  <%= @api_weather["currently"]["temperature"] %>
+    <%= @api_weather["currently"]["temperature"] %>
     F.
   </p1>
+
+  <p>
+  </p>
+
+  <p1 class = "Data">
+    The current hummidity is:
+    <%= @api_weather["currently"]["humidity"] * 100 %>
+    %
+  </p1>
+
+  <p>
+  </p>
+
+  <p1 class = "Data">
+    The current wind speed is:
+    <%= @api_weather["currently"]["windSpeed"] %>
+    mph
+  </p1>
+
+  <p>
+  </p>
+
+  <p1 class = "Data">
+    Possible wind gust of:
+    <%= @api_weather["currently"]["windGust"] %>
+    mph
+  </p1>
+
 </div>

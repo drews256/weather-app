@@ -1,19 +1,22 @@
 .WeatherWrapper {
   width: 100%;
 }
-h1 {
-  color: blue;
+
+.Data {
   text-align: left;
-  text-decoration: underline;
+  color: black;
+  border-width: thick;
+  list-style-position: outside;
+
 }
 
-p {
-  color: grey;
+body {
+  background-color: teal;
 }
 
-p1 {
-  color: grey;
+h1 {
   text-align: center;
+  text-decoration: underline;
 }
 
 div {
