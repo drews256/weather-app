@@ -3,7 +3,7 @@
     Your Username is:
   </div>
   <div>
-    <%= @user.username %>
+    <%= @user&.username || 'No User Name' %>
   </div>
 </div>
 

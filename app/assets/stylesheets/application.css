@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+//= require homes/show
+
+.yawa-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 600;
+}

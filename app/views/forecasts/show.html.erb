@@ -1,0 +1,21 @@
+<div class='homes-wrapper'>
+  <div class='row'>
+    <div class='label'>
+      Your submitted Location
+    </div>
+    <div class='homes'>
+      <%= @new_forecast['latitude'] %>
+    </div>
+    <div class='homes'>
+      <%= @new_forecast['longitude'] %>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='label'>
+      Your current temperature
+    </div>
+    <div class='homes'>
+      <%= @new_forecast['currently']['temperature'] %>
+    </div>
+  </div>
+</div>

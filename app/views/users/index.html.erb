@@ -1,0 +1,20 @@
+<% @users.each do |user| %>
+  <div>
+    <div class='row'>
+      <div>
+        User Id
+      </div>
+      <div>
+        <%= user&.id || 'undefined' %>
+      </div>
+    </div>
+    <div class='row'>
+      <div>
+        Username
+      </div>
+      <div>
+        <%= user&.username || 'No User Name' %>
+      </div>
+    </div>
+  </div>
+<% end %>
