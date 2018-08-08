@@ -9,6 +9,11 @@
   list-style-position: outside;
 
 }
+ol {
+  text-align: center;
+  color: blue;
+  background-color: lightblue;
+}
 
 body {
   background-color: teal;
