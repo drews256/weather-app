@@ -7,6 +7,8 @@ end
 
 gem 'bcrypt'
 gem 'devise', '~> 4.4.3'
+gem 'bootstrap'
+gem 'jquery-rails'
 gem 'faraday'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
