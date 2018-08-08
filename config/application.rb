@@ -10,7 +10,7 @@ module ExampleApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
-
+    config.ignored_paths = %Q(/users/sign_in /users/sign_up /users/password /users/sign_out /users/confirm_password)
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
